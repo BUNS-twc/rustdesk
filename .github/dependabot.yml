@@ -9,5 +9,3 @@ updates:
       prefix: "Git submodule"
     labels:
       - "dependencies"
-      with:
-&nbsp; submodules: recursive
