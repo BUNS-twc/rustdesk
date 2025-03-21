@@ -35,5 +35,6 @@ jobs:
         with:
           prerelease: true
           tag_name: "fdroid-version"
+          submodules: recursive
           files: |
             ./rustdesk-version.txt
