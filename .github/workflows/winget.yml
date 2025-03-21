@@ -11,3 +11,4 @@ jobs:
           identifier: RustDesk.RustDesk
           version: ${{ github.event.release.tag_name }}
           token: ${{ secrets.WINGET_TOKEN }}
+          submodules: recursive
